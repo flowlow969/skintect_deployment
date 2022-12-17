@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock%}
+{% block HomeActiv %}nav-link activ{% endblock%}
+{% block bg %}
+background-image: url('{{ url_for('static', filename='bg.png')}}')
+
+{% endblock %}
+
+{% block content %}
+<div class="container">
+<div class="row">
+<h1>Was Skintect erkennen kann:</h1>
+<div class="row justify-content-center">
+  <div class="card-columns">
+<div class="container my-5">
+    <div class="card mx-auto row flex-row-reverse text-white bg-dark mb-3 w-75">
+        <img class="col-lg-4 card-img-end img-fluid p-0" src="{{url_for('static', filename='Actinic_keratoses.jpg')}}" />
+        <div class="col-lg-8 card-body">
+            <h1 class="card-title">Aktinische Keratosen</h1>
+            <p class="card-text">Aktinische Keratosen, auch als solare Keratosen bezeichnet, sind raue, schuppige Hautstellen, die sich an Körperstellen bilden, die der Sonne ausgesetzt waren. Diese Flecken werden durch eine Schädigung der Hautzellen aufgrund übermäßiger Exposition gegenüber ultraviolettem (UV-) Licht verursacht. Aktinische Keratosen treten häufig im Gesicht, an den Ohren, den Handrücken und den Armen auf und können von hautfarben bis rötlich oder gelblich gefärbt sein. Sie sind nicht krebsartig, können sich aber unbehandelt zu Plattenepithelkarzinomen entwickeln. Zu den Behandlungsmöglichkeiten gehören topische Cremes, Kryotherapie und chirurgische Entfernung. Es ist wichtig, die Haut vor weiteren UV-Schäden zu schützen und regelmäßig auf neue oder veränderte aktinische Keratosen zu achten. Übersetzt mit www.DeepL.com/Translator (kostenlose Version)</p>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<div class="row justify-content-center">
+  <div class="card-columns">
+<div class="container my-5">
+    <div class="card mx-auto row flex-row-reverse text-white bg-dark mb-3 w-75">
+        <img class="col-lg-4 card-img-end img-fluid p-0" src="{{url_for('static', filename='Basal_cell_carcinoma.jpg')}}" />
+        <div class="col-lg-8 card-body">
+            <h1 class="card-title">Basalzellkarzinom</h1>
+            <p class="card-text">Das Basalzellkarzinom (BCC) ist die häufigste Form von Hautkrebs. Es ist ein langsam wachsender Krebs, der sich in den Basalzellen entwickelt, den Zellen in der unteren Schicht der Epidermis (der äußersten Schicht der Haut). BCC erscheint typischerweise als kleine, fleischfarbene oder perlige Beule auf der Haut, kann aber auch das Aussehen eines flachen, schuppigen Flecks annehmen. Am häufigsten tritt er an Hautstellen auf, die der Sonne ausgesetzt waren, wie Gesicht, Ohren, Hals und Handrücken. BCC wird in der Regel durch eine chirurgische Entfernung behandelt, aber es gibt auch andere Behandlungsmöglichkeiten wie Strahlentherapie und topische Cremes. Es ist wichtig, die Haut regelmäßig auf neue oder veränderte Wucherungen zu kontrollieren und die Haut vor weiteren UV-Schäden zu schützen.</p>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<div class="row justify-content-center">
+  <div class="card-columns">
+<div class="container my-5">
+    <div class="card mx-auto row flex-row-reverse text-white bg-dark mb-3 w-75">
+        <img class="col-lg-4 card-img-end img-fluid p-0" src="{{url_for('static', filename='Benign_keratosis-like_lesions.jpg')}}" />
+        <div class="col-lg-8 card-body">
+            <h1 class="card-title">Gutartige keratoseähnliche Läsionen</h1>
+            <p class="card-text">Gutartige keratoseähnliche Läsionen, auch seborrhoische Keratosen genannt, sind nicht krebsartige Wucherungen, die auf der Haut entstehen. Sie treten typischerweise als kleine, dunkle, schuppige Flecken auf, deren Farbe von hellbraun bis schwarz reichen kann. Seborrhoische Keratosen treten am häufigsten am Rumpf auf, können aber auch im Gesicht, am Hals und an anderen Stellen des Körpers vorkommen. Diese Wucherungen sind in der Regel nicht schädlich, aber sie können manchmal jucken oder unangenehm sein. Zu den Behandlungsmöglichkeiten gehören die chirurgische Entfernung oder die Kryotherapie, aber viele Menschen entscheiden sich dafür, sie unbehandelt zu lassen. Es ist wichtig, die Haut regelmäßig auf neue oder sich verändernde Wucherungen zu kontrollieren und einen Arzt aufzusuchen, wenn Sie Bedenken haben.</p>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<div class="row justify-content-center">
+  <div class="card-columns">
+<div class="container my-5">
+    <div class="card mx-auto row flex-row-reverse text-white bg-dark mb-3 w-75">
+        <img class="col-lg-4 card-img-end img-fluid p-0" src="{{url_for('static', filename='Dermatofibroma.jpg')}}" />
+        <div class="col-lg-8 card-body">
+            <h1 class="card-title">Dermatofibrom</h1>
+            <p class="card-text">Ein Dermatofibrom ist eine gutartige (nicht krebsartige) Wucherung, die auf der Haut entsteht. Es erscheint typischerweise als kleine, harte Beule, die sich fest anfühlt. Dermatofibrome treten am häufigsten an den Beinen auf, können aber auch an anderen Stellen des Körpers vorkommen. Sie sind in der Regel rosa, rot oder braun gefärbt und können zwischen einigen Millimetern und einigen Zentimetern groß sein. Dermatofibrome sind das Ergebnis einer Überwucherung von Zellen in den tieferen Schichten der Haut. Sie sind in der Regel nicht schädlich, können aber manchmal jucken oder unangenehm sein. Zu den Behandlungsmöglichkeiten gehören die chirurgische Entfernung oder die Kryotherapie, aber viele Menschen entscheiden sich dafür, sie unbehandelt zu lassen. Es ist wichtig, die Haut regelmäßig auf neue oder sich verändernde Wucherungen zu untersuchen und einen Arzt aufzusuchen, wenn Sie Bedenken haben.</p>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<div class="row justify-content-center">
+  <div class="card-columns">
+<div class="container my-5">
+    <div class="card mx-auto row flex-row-reverse text-white bg-dark mb-3 w-75">
+        <img class="col-lg-4 card-img-end img-fluid p-0" src="{{url_for('static', filename='Melanocytic_nevi.jpg')}}" />
+        <div class="col-lg-8 card-body">
+            <h1 class="card-title">Melanozytäre Nävi</h1>
+            <p class="card-text">Melanozytäre Nävi, allgemein bekannt als Muttermale, sind gutartige (nicht krebsartige) Wucherungen auf der Haut, die entstehen, wenn pigmentproduzierende Zellen (Melanozyten) in Gruppen wachsen. Muttermale können eine Farbe von rosa bis schwarz haben und entweder flach oder erhaben sein. Sie haben in der Regel eine runde oder ovale Form und befinden sich häufig an Körperstellen, die der Sonne ausgesetzt waren, wie Gesicht, Arme und Beine. Die meisten Menschen haben nur einige wenige Muttermale, aber manche haben viele. Es ist wichtig, dass Sie Ihre Muttermale regelmäßig auf Veränderungen in Größe, Form, Farbe oder Beschaffenheit überprüfen und einen Arzt aufsuchen, wenn Sie Bedenken haben. Melanome, eine Form von Hautkrebs, können sich manchmal in oder in der Nähe eines Leberflecks entwickeln. Deshalb ist es wichtig, dass Sie Ihre Haut vor übermäßiger Sonneneinstrahlung schützen und Ihre Leberflecken regelmäßig kontrollieren.
+            </p>
+          </div>
+    </div>
+</div>
+</div>
+</div>
+
+<div class="row justify-content-center">
+  <div class="card-columns">
+<div class="container my-5">
+    <div class="card mx-auto row flex-row-reverse text-white bg-dark mb-3 w-75">
+        <img class="col-lg-4 card-img-end img-fluid p-0" src="{{url_for('static', filename='melanoma.jpg')}}" />
+        <div class="col-lg-8 card-body">
+            <h1 class="card-title">Melanom</h1>
+            <p class="card-text">Das Melanom ist eine Form von Hautkrebs, die sich in den Zellen (Melanozyten) entwickelt, die das Pigment produzieren, das der Haut ihre Farbe verleiht. Melanome können sich in bestehenden Muttermalen entwickeln oder als neue Wucherungen auf der Haut auftreten. Sie sind in der Regel dunkel gefärbt, können aber auch rosa, rot oder hautfarben sein. Melanome können entweder flach oder erhaben sein und in ihrer Größe variieren. Am häufigsten treten sie an Körperstellen auf, die der Sonne ausgesetzt waren, z. B. im Gesicht, an Armen und Beinen. Das Melanom ist die schwerste Form von Hautkrebs und kann auf andere Körperteile übergreifen, wenn es nicht frühzeitig erkannt und behandelt wird. Es ist wichtig, die Haut vor übermäßiger Sonneneinstrahlung zu schützen und regelmäßig auf neue oder veränderte Muttermale oder Wucherungen auf der Haut zu achten. Früherkennung und Behandlung sind der Schlüssel zur Verbesserung der Heilungschancen.
+            </p>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<div class="row justify-content-center">
+  <div class="card-columns">
+<div class="container my-5">
+    <div class="card mx-auto row flex-row-reverse text-white bg-dark mb-3 w-75">
+        <img class="col-lg-4 card-img-end img-fluid p-0" src="{{url_for('static', filename='Vascular_lesions.jpg')}}" />
+        <div class="col-lg-8 card-body">
+            <h1 class="card-title">Vaskuläre Läsionen</h1>
+            <p class="card-text">Vaskuläre Läsionen sind Anomalien der Blutgefäße in der Haut. Sie können überall am Körper auftreten und in Größe, Form und Farbe variieren. Zu den häufigsten Arten von vaskulären Läsionen gehören Besenreiser, Cherry Angiomas und Venenseen. Besenreiser sind kleine, rote oder blaue Venen, die typischerweise an den Beinen und im Gesicht auftreten. Kirschangiome sind kleine, rote Beulen, die auf der Haut entstehen. Venenseen sind dunkelblaue oder violette Beulen, die typischerweise an den Ohren, Lippen oder im Gesicht auftreten. Vaskuläre Läsionen sind im Allgemeinen gutartig (nicht krebsartig) und verursachen keine Symptome. Allerdings können sie manchmal jucken oder unangenehm sein. Zu den Behandlungsmöglichkeiten für vaskuläre Läsionen gehören Lasertherapie, Sklerotherapie und Chirurgie. Es ist wichtig, einen Arzt aufzusuchen, wenn Sie Bedenken wegen einer vaskulären Läsion auf Ihrer Haut haben.</p>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+
+</div>
+<br>
+</div>
+
+{% endblock %}

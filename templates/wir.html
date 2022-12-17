@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Über uns{% endblock%}
+{% block HomeActiv %}nav-link activ{% endblock%}
+
+{% block content %}
+<div class="container">
+<div class="row">
+<h1>Wer wir sind:</h1>
+<div class="row justify-content-center">
+  <div class="card-columns">
+<div class="container my-5">
+    <div class="card mx-auto row flex-row-reverse text-white bg-dark mb-3 w-75">
+        <img class="col-lg-4 card-img-end img-fluid p-0" src="{{url_for('static', filename='stock.jpg')}}" />
+        <div class="col-lg-8 card-body">
+            <h1 class="card-title">Wer wir sind</h1>
+            <p class="card-text">Willkommen bei Skintect, einem von drei Medizintechnikstudenten gegründeten Startup-Unternehmen für KI-basierte Hautkrebserkennung. Wir bei Skintect haben es uns zur Aufgabe gemacht, die Früherkennung von Hautkrebs durch den Einsatz modernster Technologie genauer und zugänglicher zu machen.
+              Unser Team hat unermüdlich an der Entwicklung eines KI-Algorithmus gearbeitet, der Bilder der Haut analysieren und potenzielle Hautkrebsläsionen erkennen kann. Dies ermöglicht eine effizientere und genauere Beurteilung der Haut, was den Ärzten helfen kann, eine sichere Diagnose zu stellen.
+              Wir sind bestrebt, unsere Technologie ständig zu verbessern und sie so vielen Menschen wie möglich zugänglich zu machen. Durch den Einsatz von KI bei der Erkennung von Hautkrebs hoffen wir, einen positiven Einfluss auf die öffentliche Gesundheit zu haben und den Menschen zu helfen, ein gesünderes Leben zu führen. Wir danken Ihnen für Ihren Besuch auf unserer Website und hoffen, dass Sie Skintect zum Schutz Ihrer Haut nutzen werden.
+            </p>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+
+{% endblock %}

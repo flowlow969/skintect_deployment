@@ -1,0 +1,6 @@
+#.gitingore
+/static/uploads
+/__pycache__
+*.pyc
+*.tar
+*.yml
