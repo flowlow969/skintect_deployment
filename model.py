@@ -15,7 +15,7 @@ model = tf.keras.models.load_model("256x3_128x3_64x3-CNN.model")
 def prepare(filepath):
     """Diese Funktion bereitet die Daten für die Analyse vor."""
     IMG_SIZE = 100  # Bildgröße festlegen
-    new_array = np.asarray(Image.open(filepath).resize((size,size)))  # Bild laden und auf die zuvor definierte Größe runterrechnen
+    new_array = np.asarray(Image.open(filepath).resize((IMG_SIZE,IMG_SIZE)))  # Bild laden und auf die zuvor definierte Größe runterrechnen
     return new_array.reshape(-1, IMG_SIZE, IMG_SIZE, 3) #Bild im passenden Format zurückgeben
 
 def predict(filename):
