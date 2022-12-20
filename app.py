@@ -25,6 +25,7 @@ def home():
     """Funktion ruft Hauptseite auf"""
     return render_template('home.html')
 
+
 @app.route('/', methods=['POST'])
 def upload_image():
     """Funktion regellt den upload von bildern"""
