@@ -1,14 +1,21 @@
 # Skintect
-Skintect ist ein Semester Projekt bei dem Hautkrebs mittels eines Neuronalennetz erkannt werden soll. Dieses Netz wurde mit HAM10000 Datensatz Trainiert
+Skintect ist ein Semesterprojekt, bei dem Hautkrebs mittels eines neuronalen Netzes erkannt werden soll. Dieses Netz wurde mit dem HAM10000 Datensatz trainiert.
 
 ### Ausführen
-zum Ausprobieren Runterladen, [Docker](https://docs.docker.com/get-docker/) instalieren, im Terminal in den Ordner navigieren, dort mit dem Befehl: (der punkt im nächsten befehl ist wichtig)
+Zum Ausprobieren runterladen, [Docker](https://docs.docker.com/get-docker/) installieren, im Terminal in den Ordner navigieren, dort mit dem Befehl: (der Punkt im nächsten Befehl ist wichtig)
 ```docker
 docker image build -t skintect .
+```
+WICHTIG: Unter Windows muss das Windows Subsystem für Linux (WSL) installiert werden. Dazu wird folgender Befehl zur Installation benötigt:
+
+```
+wsl --install
 ```
  in docker laden und mit :
  ```docker
  docker run -p 5000:5000 -d skintect 
  ```
 Nun kann die Website unter: lockalhoste:5000 aufgerufen werden. 
-Viel spass beim Ausprobieren.
+Viel Spaß beim Ausprobieren.
+
+
