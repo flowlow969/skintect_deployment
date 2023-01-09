@@ -20,7 +20,7 @@ Mit dem folgenden Befehl wird der Container in Docker geöffnet:
  ```docker
  docker run -p 5000:5000 -d skintect 
  ```
-Nun kann die Website unter: localhost:5000 im Browser aufgerufen werden. 
+Nun kann die Website entweder über das Docker-Desktop Programm geöffnet oder unter: localhost:5000 im Browser aufgerufen werden. 
 # Viel Spaß beim Ausprobieren!
 
 
