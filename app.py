@@ -44,7 +44,7 @@ def upload_image():
         if i == 1:  # überprüfen ob die Hautveränderung benigne oder maligne ist
             flash('Diese Hautveränderung ist wahrscheinlich  ein ' + detection + " und wahrscheinlich maligne.", category="error") # Art der veränderung ausgeben (maligne=bössartig)
         else:
-            flash('Diese Hausveränderung ist wahrscheinlich  ein ' + detection + " und wahrscheinlich beligine.", category="success") # Art der veränderung ausgeben (benigne=Gutartige)
+            flash('Diese Hausveränderung ist wahrscheinlich  ein ' + detection + " und wahrscheinlich benigne.", category="success") # Art der veränderung ausgeben (benigne=Gutartige)
         return render_template('home.html', filename=filename)
     else:
         flash('Allowed image types are - png, jpg, jpeg, gif', category="error") # Fehler auf Website ausgeben(falscher Datentyp)
